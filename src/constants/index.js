@@ -23,8 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
-  pngegg
 } from "../assets";
+import pngegg from "../assets/pngegg.png";
 
 export const navLinks = [
   {
@@ -91,10 +91,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -118,10 +114,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -175,7 +168,7 @@ const testimonials = [
     name: "Rahat Sayyed",
     designation: "Web3 Dev | ",
     company: "Konma DAO",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: pngegg,
   },
   {
     testimonial:
@@ -183,7 +176,7 @@ const testimonials = [
     name: "Vinay Deva",
     designation: "Co-Founder |",
     company: "Konma DAO",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: pngegg,
   },
   {
     testimonial:
@@ -191,7 +184,7 @@ const testimonials = [
     name: "Faizan Shaikh",
     designation: "Haskell Dev |",
     company: "Konma DAO",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: pngegg,
   },
 ];
 
