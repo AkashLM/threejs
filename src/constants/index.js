@@ -25,6 +25,10 @@ import {
   threejs,
 } from "../assets";
 import pngegg from "../assets/pngegg.png";
+import Img1 from "../assets/project-img1.png";
+import Img2 from "../assets/project-img2.png";
+import Img3 from "../assets/project-img3.jpg";
+
 
 export const navLinks = [
   {
@@ -173,7 +177,7 @@ const testimonials = [
   {
     testimonial:
       "I had the pleasure of collaborating with Akash on Luxo | Pinko, and the results were nothing short of exceptional. Akash's attention to detail and commitment to delivering high-quality work were evident in every aspect of the project. ",
-    name: "Vinay Deva",
+    name: "Vinay Devabhakthuni",
     designation: "Co-Founder |",
     company: "Konma DAO",
     image: pngegg,
@@ -190,9 +194,10 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "YouTube clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      `Watch Out : https://youtubeclone70.netlify.app/...
+      The YouTube clone designed in the MERN (MongoDB, Express, React, Node.js) stack offers a comprehensive platform for users to upload, view, and interact with videos, fostering a dynamic and engaging multimedia experience.`,
     tags: [
       {
         name: "react",
@@ -203,17 +208,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "rest-api",
+        color: "blue-text-gradient",
+      },
+      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Img1,
+    source_code_link: "https://github.com/AkashLM/project_youtube_clone",
   },
   {
-    name: "Job IT",
+    name: "Smart Hire",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Watch Out : https://hirex.onrender.com/... The automated smart hiring solution project, built using NLP and the MERN stack, revolutionizes the recruitment process by intelligently analyzing applicant data and interactions to streamline and enhance the hiring journey.",
     tags: [
       {
         name: "react",
@@ -224,33 +233,49 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "NLP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AI-Support",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Img2,
+    source_code_link: "https://github.com/Hrushi01/smarthire",
   },
   {
-    name: "Trip Guide",
+    name: "Covid 19 Awareness",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Watch Out : https://covidawarenessakashm.netlify.app/... Creating a comprehensive COVID-19 awareness project utilizing the MUI design framework and the MERN (MongoDB, Express, React, Node.js) stack to inform, educate, and engage users about pandemic-related information.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Marterial UI",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "GSAP & Framer Motion",
+        color: "pink-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Img3,
+    source_code_link: "https://github.com/AkashLM/covid-19-awareness",
   },
 ];
 

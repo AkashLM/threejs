@@ -26,23 +26,22 @@ const Contact = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_SERVICEID,
+        import.meta.env.VITE_APP_TEMPLATEID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Akash Malekar",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "malekarakash70@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_PUBLICKEYID
       )
       .then(
         () => {
